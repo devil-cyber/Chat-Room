@@ -1,0 +1,17 @@
+{
+  "name": "ChatRoom",
+  "version": "1.0.0",
+  "description": "Real Time Chat App With Room",
+  "main": "server.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manikant Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "socket.io": "^2.3.0"
+  }
+}
